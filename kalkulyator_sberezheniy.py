@@ -162,7 +162,7 @@ def show_result(result):
     st.write("Вложено собственных денег:", rubles(result["own_money"]))
     st.write("Получено процентов:", rubles(result["interest"]))
     st.write("Примерный налог:", rubles(result["tax"]))
-st.write("Сумма после налога:", rubles(result["after_tax"]))
+    st.write("Сумма после налога:", rubles(result["after_tax"]))
     st.write("С учетом инфляции:", rubles(result["real_value"]))
 
 st.title("Калькулятор сбережений")
